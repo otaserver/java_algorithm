@@ -217,7 +217,7 @@ public class P2_5 {
 
 	     if(treeNode!=null)												//如果队首指针不为空     
 	     {
-	         tail=(tail+1)%MAXLEN;									//计算循环队列队尾序号 
+	         tail=(tail+1)%MAXLEN;									//计算循环队列队尾序号
 	         q[tail] = treeNode;										//将二叉树根指针进队
 	     }
 	     while(head!=tail) 											//队列不为空，进行循环 
